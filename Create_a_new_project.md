@@ -28,7 +28,7 @@
 
 
 10. Build Events->Post-Build Event -> Command Line :  
-   copy "\$(OutDir)\ \$(TargetFileName)" "\$(OGRE_HOME)\Bin" 
+   copy "\$(OutDir)\$(TargetFileName)" "\$(OGRE_HOME)\Bin" 
 
 11. General->Character Set:  
     Use multi-byte Character set
